@@ -1,0 +1,60 @@
+﻿@model EmployeeBenefits.Models.Dependent
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details Dependent for employee @ViewBag.EmployeeFirstName @ViewBag.EmployeeLastName</h2>
+
+
+<div>
+    <h4>Dependent</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DependentId }) |
+    @Html.ActionLink("Back to Dependents List", "Index", new { id = ViewBag.EmployeeId, employeeFirstName = ViewBag.EmployeeFirstName, employeeLastName = ViewBag.EmployeeLastName })
+
+</p>

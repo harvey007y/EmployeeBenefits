@@ -1,0 +1,55 @@
+﻿@using EmployeeBenefits.Models;
+@model IEnumerable<Dependent>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Dependents for @ViewBag.EmployeeFirstName @ViewBag.EmployeeLastName</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", new { employeeFirstName = ViewBag.EmployeeFirstName, employeeLastName = ViewBag.EmployeeLastName, employeeId = ViewBag.EmployeeId })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { employeeFirstName = ViewBag.EmployeeFirstName, employeeLastName = ViewBag.EmployeeLastName, id = item.DependentId, employeeId = ViewBag.EmployeeId }) |
+            @Html.ActionLink("Details", "Details", new { employeeFirstName = ViewBag.EmployeeFirstName, employeeLastName = ViewBag.EmployeeLastName, id = item.DependentId, employeeId = ViewBag.EmployeeId }) |
+            @Html.ActionLink("Delete", "Delete", new { employeeFirstName = ViewBag.EmployeeFirstName, employeeLastName = ViewBag.EmployeeLastName, id = item.DependentId, employeeId = ViewBag.EmployeeId })
+        </td>
+    </tr>
+}
+
+</table>
+<div>
+    @Html.ActionLink("Back to Employees List", "Index", "Employee")
+</div>
