@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Employee Benefits";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                This site provides an easy way to calculate benefit deductions for employees.
+
+            </p>
+        </div>
+    </section>
+}
+<h3>We suggest the following:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Add Employees</h5>
+        Click on Employees List to add employees.
+
+    </li>
+
+    <li class="two">
+        <h5>Add Dependents for Each Employee</h5>
+        In the Employees List page, click on dependents link to add dependents
+    </li>
+
+    <li class="three">
+        <h5>How the calculations work</h5>
+        <ul>
+            <li>The cost of benefits is $1000/year for each employee</li>
+            <li>Each dependent (children and possibly spouses) incurs a cost of $500/year</li>
+            <li>Anyone whose name starts with ‘A’ gets a 10% discount, employee or dependent</li>
+        </ul>
+
+    </li>
+    <li class="four">
+        <h5>Assumptions</h5>
+        <ul>
+            <li>All employees are paid $2000 per paycheck before deductions </li>
+            <li>There are 26 paychecks in a year </li>           
+        </ul>
+
+    </li>
+</ol>

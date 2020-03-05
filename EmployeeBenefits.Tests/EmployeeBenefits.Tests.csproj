@@ -71,9 +71,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EmployeeBenefits\EmployeeBenefits.csproj">
-      <Project>{1D125FDE-7656-41A7-8E75-DC57DD788EA6}</Project>
-      <Name>EmployeeBenefits</Name>
+    <ProjectReference Include="..\EmployeeBenefits.Site\EmployeeBenefits.Site.csproj">
+      <Project>{9915ff9e-e598-4da8-ba4e-cd32f462b33d}</Project>
+      <Name>EmployeeBenefits.Site</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
