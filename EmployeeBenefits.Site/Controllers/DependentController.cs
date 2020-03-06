@@ -53,6 +53,7 @@ namespace EmployeeBenefits.Controllers
             ViewBag.EmployeeFirstName = employeeFirstName;
             ViewBag.EmployeeLastName = employeeLastName;
             var dependent = employeeContext.Dependents.Single(x => x.DependentId == id);
+            dependent.Type = dependent.Type.Trim();
             return View(dependent);
         }
 

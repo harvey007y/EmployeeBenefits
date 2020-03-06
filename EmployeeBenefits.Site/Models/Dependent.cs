@@ -14,6 +14,8 @@ namespace EmployeeBenefits.Models {
         [DisplayName("Dependent Id")]
         public int DependentId { get; set; }
 
+        public string Type { get; set; }
+
         // Foreign key
         [ForeignKey("Employee")]
         [HiddenInput(DisplayValue =false)]
