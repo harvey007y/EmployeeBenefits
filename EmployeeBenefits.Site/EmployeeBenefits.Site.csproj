@@ -248,11 +248,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\Dependent.cs" />
-    <Compile Include="Models\Employee.cs" />
-    <Compile Include="Models\EmployeeContext.cs" />
-    <Compile Include="Models\IPerson.cs" />
-    <Compile Include="Models\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -391,7 +386,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeBenefits.Business\EmployeeBenefits.Business.csproj">
+      <Project>{a7a51c2b-2ceb-42b9-a391-cf4f9ab0b8be}</Project>
+      <Name>EmployeeBenefits.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeBenefits.Domain\EmployeeBenefits.Domain.csproj">
+      <Project>{251073e3-59a4-4a68-a694-2b0a169951fc}</Project>
+      <Name>EmployeeBenefits.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

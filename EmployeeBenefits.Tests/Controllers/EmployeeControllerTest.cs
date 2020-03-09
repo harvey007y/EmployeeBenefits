@@ -7,7 +7,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmployeeBenefits.Site;
 using EmployeeBenefits.Site.Controllers;
 using EmployeeBenefits.Controllers;
-using EmployeeBenefits.Models;
+using EmployeeBenefits.Domain;
+using EmployeeBenefits.Business;
 
 namespace EmployeeBenefits.Tests.Controllers
 {

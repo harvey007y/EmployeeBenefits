@@ -77,6 +77,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EmployeeBenefits.Business\EmployeeBenefits.Business.csproj">
+      <Project>{a7a51c2b-2ceb-42b9-a391-cf4f9ab0b8be}</Project>
+      <Name>EmployeeBenefits.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeBenefits.Domain\EmployeeBenefits.Domain.csproj">
+      <Project>{251073e3-59a4-4a68-a694-2b0a169951fc}</Project>
+      <Name>EmployeeBenefits.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EmployeeBenefits.Site\EmployeeBenefits.Site.csproj">
       <Project>{9915ff9e-e598-4da8-ba4e-cd32f462b33d}</Project>
       <Name>EmployeeBenefits.Site</Name>

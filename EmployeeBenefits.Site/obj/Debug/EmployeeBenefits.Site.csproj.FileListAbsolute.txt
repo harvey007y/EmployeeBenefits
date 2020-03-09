@@ -226,3 +226,8 @@ C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\IdealActions.Site\obj\D
 C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\IdealActions.Site\obj\Debug\EmployeeBenefits.Site.csproj.CopyComplete
 C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\IdealActions.Site\obj\Debug\EmployeeBenefits.Site.dll
 C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\IdealActions.Site\obj\Debug\EmployeeBenefits.Site.pdb
+C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\EmployeeBenefits.Site\bin\EmployeeBenefits.Business.dll
+C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\EmployeeBenefits.Site\bin\EmployeeBenefits.Domain.dll
+C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\EmployeeBenefits.Site\bin\EmployeeBenefits.Business.pdb
+C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\EmployeeBenefits.Site\bin\EmployeeBenefits.Business.dll.config
+C:\Users\harve_nk54qew\Documents\GitHub\EmployeeBenefits\EmployeeBenefits.Site\bin\EmployeeBenefits.Domain.pdb

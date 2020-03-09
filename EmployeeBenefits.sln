@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBenefits.Tests", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBenefits.Site", "EmployeeBenefits.Site\EmployeeBenefits.Site.csproj", "{9915FF9E-E598-4DA8-BA4E-CD32F462B33D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBenefits.Domain", "EmployeeBenefits.Domain\EmployeeBenefits.Domain.csproj", "{251073E3-59A4-4A68-A694-2B0A169951FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBenefits.Business", "EmployeeBenefits.Business\EmployeeBenefits.Business.csproj", "{A7A51C2B-2CEB-42B9-A391-CF4F9AB0B8BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9915FF9E-E598-4DA8-BA4E-CD32F462B33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9915FF9E-E598-4DA8-BA4E-CD32F462B33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9915FF9E-E598-4DA8-BA4E-CD32F462B33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251073E3-59A4-4A68-A694-2B0A169951FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251073E3-59A4-4A68-A694-2B0A169951FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251073E3-59A4-4A68-A694-2B0A169951FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251073E3-59A4-4A68-A694-2B0A169951FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A51C2B-2CEB-42B9-A391-CF4F9AB0B8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A51C2B-2CEB-42B9-A391-CF4F9AB0B8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A51C2B-2CEB-42B9-A391-CF4F9AB0B8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A51C2B-2CEB-42B9-A391-CF4F9AB0B8BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
