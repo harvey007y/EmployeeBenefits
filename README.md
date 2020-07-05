@@ -79,5 +79,20 @@ GO
 <br /><br />
 Here is a screenshot of the Home page:<br /><br />
 <center>
-<a href="https://github.com/harvey007y/EmployeeBenefits/blob/master/Images/Home.PNG" target="_blank"><img src="https://github.com/harvey007y/EmployeeBenefits/blob/master/Images/Home.PNG" border="0" alt="Screenshot for HomePage" width="800px"/><br />(click to enlarge)</a>
+<a href="https://github.com/harvey007y/EmployeeBenefits/blob/master/EmployeeBenefits.Site/Images/Home.PNG" target="_blank"><img src="https://github.com/harvey007y/EmployeeBenefits/blob/master/EmployeeBenefits.Site/Images/Home.PNG" border="0" alt="Screenshot for HomePage" width="800px"/><br />(click to enlarge)</a>
+ <br /><br /></center>
+ <br /><br />
+Here is a screenshot of the Employee Edit page:<br /><br />
+<center>
+<a href="https://github.com/harvey007y/EmployeeBenefits/blob/master/EmployeeBenefits.Site/Images/Edit.PNG" target="_blank"><img src="https://github.com/harvey007y/EmployeeBenefits/blob/master/EmployeeBenefits.Site/Images/Edit.PNG" border="0" alt="Screenshot for Employee Edit Page" width="800px"/><br />(click to enlarge)</a>
+ <br /><br /></center>
+  <br /><br />
+Here is a screenshot of the Employee Details page:<br /><br />
+<center>
+<a href="https://github.com/harvey007y/EmployeeBenefits/blob/master/EmployeeBenefits.Site/Images/Details.PNG" target="_blank"><img src="https://github.com/harvey007y/EmployeeBenefits/blob/master/EmployeeBenefits.Site/Images/Details.PNG" border="0" alt="Screenshot for Employee Details Page" width="800px"/><br />(click to enlarge)</a>
+ <br /><br /></center>
+   <br /><br />
+Here is a screenshot of the Employee Dependents List page:<br /><br />
+<center>
+<a href="https://github.com/harvey007y/EmployeeBenefits/blob/master/EmployeeBenefits.Site/Images/Dependents.PNG" target="_blank"><img src="https://github.com/harvey007y/EmployeeBenefits/blob/master/EmployeeBenefits.Site/Images/Dependents.PNG" border="0" alt="Screenshot for Employee Dependents List Page" width="800px"/><br />(click to enlarge)</a>
  <br /><br /></center>
