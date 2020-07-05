@@ -76,4 +76,8 @@ GO
 ALTER TABLE [dbo].[tblDependents] CHECK CONSTRAINT [FK_Dependents_tblEmployee]
 GO
 
-
+<br /><br />
+Here is a screenshot of the Home page:<br /><br />
+<center>
+<a href="https://github.com/harvey007y/EmployeeBenefits/blob/master/Images/Home.PNG" target="_blank"><img src="https://github.com/harvey007y/EmployeeBenefits/blob/master/Images/Home.PNG" border="0" alt="Screenshot for HomePage" width="800px"/><br />(click to enlarge)</a>
+ <br /><br /></center>
